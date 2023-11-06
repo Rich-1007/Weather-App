@@ -93,3 +93,19 @@ body {
   margin-top: 10px;
   display: none;
 }
+@media (max-width: 430px) {
+  .search {
+    display: table-caption;
+  }
+  * {
+    margin: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .search {
+    display: table-caption;
+  }
+  * {
+    margin: 0px;
+  }
+}
